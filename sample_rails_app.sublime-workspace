@@ -1,0 +1,1172 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"instance_variabl",
+				"instance_variable_defined?	func"
+			],
+			[
+				"cla",
+				"cla	class BlankSlate .. initialize .. end"
+			],
+			[
+				"cl",
+				"cl	classify { |e| .. }"
+			],
+			[
+				"def",
+				"def	def … end"
+			],
+			[
+				"down",
+				"downto	func"
+			],
+			[
+				"logme",
+				"logmethinst	Display methods of an object MINUS methods of parent objects / classes"
+			],
+			[
+				"comm",
+				"comment_moduleheading	Main module heading - explain what module does etc."
+			],
+			[
+				"readFileS",
+				"fs.readFileSync(path, options);"
+			],
+			[
+				"readFile",
+				"fs.readFileSync(path, options);"
+			],
+			[
+				"comment",
+				"comment_notebig	Moderate-size comment (3 line +)"
+			],
+			[
+				"log",
+				"log__var_val_in_block	Output var to CLI in big, conspicuous block"
+			],
+			[
+				"inspect",
+				"util.inspect(obj, opts);"
+			],
+			[
+				"_sort",
+				"_sortByAll	Sort arr or obj via any # of sorters (both sort vals & fns)"
+			],
+			[
+				"seneca_",
+				"seneca_restapi_plugin	seneca--add-restapi-action-call"
+			],
+			[
+				"test_entity",
+				"test_entity_1"
+			],
+			[
+				"cd",
+				"cd	console.dir"
+			],
+			[
+				"seneca",
+				"seneca_add_action	seneca--add-action"
+			],
+			[
+				"comment_",
+				"comment_notegigantic	Large comment not directly defining a module, class, fn, or method"
+			],
+			[
+				"er",
+				"error	Event"
+			],
+			[
+				"con",
+				"console.dir"
+			],
+			[
+				"random",
+				"Math.random()	Math"
+			],
+			[
+				"comment_m",
+				"comment_block_monster	Monster-size comment block - to divide file into sections"
+			],
+			[
+				"req",
+				"req	nodejs--require"
+			],
+			[
+				"Error",
+				"new Error(${0:message})	Error"
+			],
+			[
+				"seneca_new_ms",
+				"seneca_new_ms	seneca--basic-microservice"
+			],
+			[
+				"cons",
+				"console.error"
+			],
+			[
+				"inner",
+				"innerHTML	Element"
+			],
+			[
+				"onc",
+				"onclick	Attr"
+			],
+			[
+				"g",
+				"get	$.get()"
+			],
+			[
+				"rren",
+				"react_ren	react--React-render--renders_element"
+			],
+			[
+				"cdm",
+				"cdm	React: componentDidMount: fn() { ... }"
+			],
+			[
+				"err",
+				"error	Event"
+			],
+			[
+				"loc_",
+				"loc_href	e.g. \"http://localhost:3002/components/react-1/index.html\". Full URL of current page."
+			],
+			[
+				"react_t",
+				"react_tss	react--this.setState"
+			],
+			[
+				"rc_",
+				"rc_fullupdatelifecycle	react--component--full-update-lifecycle"
+			],
+			[
+				"react_",
+				"react_tsp	react--this.setProps"
+			],
+			[
+				"rc",
+				"rcwm	react--component-lifecycle--mounting--componentWillMount"
+			],
+			[
+				"r",
+				"rcwm	react--component-lifecycle--mounting--componentWillMount"
+			],
+			[
+				"pro",
+				"props	React: this.props"
+			],
+			[
+				"rc_mou",
+				"rc_mounter	react--component-mounter--(mounts_another_component)"
+			],
+			[
+				"rc_mount",
+				"rc_mountable	react--component-mountable"
+			],
+			[
+				"rc_m",
+				"rc_mounter	react--component-mounter--(mounts_another_component)"
+			],
+			[
+				"rc_moun",
+				"rc_mountable	react--component-mountable"
+			],
+			[
+				"ts",
+				"toString()	String"
+			],
+			[
+				"ren",
+				"ren	React: render() {…}"
+			],
+			[
+				"prop",
+				"props	React: this.props."
+			],
+			[
+				"props",
+				"props	React: this.props."
+			],
+			[
+				"gis",
+				"gis	React: getInitialState: fn() { return {...} } "
+			],
+			[
+				"rcc",
+				"rcc	React: class component"
+			],
+			[
+				"livereload",
+				"livereloadSetup"
+			],
+			[
+				"exec",
+				"child_process.exec"
+			],
+			[
+				"re",
+				"req	nodejs--require"
+			],
+			[
+				"c",
+				"cl	console.log"
+			],
+			[
+				"_",
+				"_.each"
+			],
+			[
+				"mo",
+				"module.exports"
+			],
+			[
+				"bv",
+				"bv	Backbone View"
+			],
+			[
+				"b",
+				"bd	Backbone requirejs Module definition"
+			],
+			[
+				"node",
+				"nodeType	Node"
+			],
+			[
+				"console",
+				"console.log"
+			],
+			[
+				"be",
+				"betrigger	Backbone.js events trigger"
+			],
+			[
+				"bu",
+				"buBackbone.$	Backbone.js utility Backbone.$"
+			],
+			[
+				"create",
+				"crypto.createVerify"
+			],
+			[
+				"getElement",
+				"document.getElementById(${0:id})	Document"
+			],
+			[
+				"exit",
+				"process.exit"
+			],
+			[
+				"first",
+				"_.first"
+			],
+			[
+				"nextTi",
+				"process.nextTick"
+			],
+			[
+				"new_",
+				"new_route_module	nodejs--new_route"
+			],
+			[
+				"getM",
+				"getMonth()	Date"
+			],
+			[
+				"sene",
+				"seneca_new_ms	seneca--basic-microservice"
+			],
+			[
+				"senec",
+				"seneca_new_act	seneca--new_action_call"
+			],
+			[
+				"j",
+				"jquery"
+			],
+			[
+				"res",
+				"response.end"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"stat",
+				"stats.isFile"
+			],
+			[
+				"__",
+				"__dirname"
+			],
+			[
+				"forE",
+				"forEach(${0:callback})	Array"
+			],
+			[
+				"write",
+				"write(${0:markup})	Document"
+			],
+			[
+				"commet",
+				"createComment(${0:data})	Document"
+			],
+			[
+				"iife",
+				"iifelite	nodejs--iife-lite"
+			],
+			[
+				"module",
+				"moduleObjectLiteral	nodejs--moduleObjectLiteral"
+			],
+			[
+				"le",
+				"length	String"
+			],
+			[
+				"doc",
+				"doctype	HTML - HTML foundation"
+			],
+			[
+				"html",
+				"htmlboiler	htmlboiler"
+			],
+			[
+				"array",
+				"new Blob(${0:array}, options)	Blob"
+			],
+			[
+				"try",
+				"try catch finally"
+			],
+			[
+				"encodreU",
+				"encodeURIComponent(${0:URI})	Window"
+			],
+			[
+				"createRead",
+				"fs.createReadStream"
+			],
+			[
+				"createServ",
+				"http.createServer"
+			],
+			[
+				"argv",
+				"process.argv"
+			],
+			[
+				"createServer",
+				"net.createServer"
+			],
+			[
+				"env",
+				"process.env"
+			],
+			[
+				"lstat",
+				"fs.lstat"
+			],
+			[
+				"dir",
+				"fs.readdir"
+			],
+			[
+				"if",
+				"ifElse"
+			],
+			[
+				"obj",
+				"objToStr"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 348.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"bookmar",
+				"Bookmarks: Toggle"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"JSON",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"html",
+				"HTMLPrettify"
+			],
+			[
+				"snippet form",
+				"Snippet: html--textFormSubmit"
+			],
+			[
+				"snippet",
+				"Snippet: HTML - Navigation object (inline-block)"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"add",
+				"Favorite Files: Add File(s)"
+			],
+			[
+				"favor",
+				"Favorite Files: Add File(s)"
+			],
+			[
+				"jshint",
+				"JSHint: Set Plugin Options"
+			],
+			[
+				"sublime",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"packages",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"",
+				"Babel Transform"
+			],
+			[
+				"syntax: JSX",
+				"Set Syntax: JSX"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"favori",
+				"Favorite Files: Open File(s)"
+			],
+			[
+				"fav",
+				"Favorite Files: Open File(s)"
+			],
+			[
+				"jscs",
+				"JSHint: Set Linting Preferences"
+			],
+			[
+				"Favorite",
+				"Favorite Files: Add File(s)"
+			],
+			[
+				"TodoR",
+				"TodoReview: Project Files"
+			],
+			[
+				"Snippet: re",
+				"Snippet: REGEX--line-containing-item1-not-followed-by-item-2"
+			],
+			[
+				"Snippet: ",
+				"Snippet: REGEX--line-containing-item1-not-followed-by-item-2"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"bookmark",
+				"SublimeBookmarks: Add Bookmark"
+			],
+			[
+				"syntax: d",
+				"Set Syntax: Dust"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"set syntax: sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"set syntax: Java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"handle",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"terminal",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"Snippet",
+				"Snippet: #!/usr/bin/env"
+			],
+			[
+				"Ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 661.0
+	},
+	"console":
+	{
+		"height": 226.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/andrew/projects/ruby/rails/rails_test_3/app/views/home/index.html.erb",
+		"/home/andrew/projects/ruby/rails/rails_test_3/app/controllers/home_controller.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/001-CLI.sh",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/file-handling/003-opening-files--and--object-references.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/file-handling/file-handling.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c004-modules.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c008-singletons.rb",
+		"/home/andrew/projects/ruby/rails/rails_test_3/docs/todo-for-ackroo.txt",
+		"/home/andrew/projects/ruby/rails/rails_test_3/config/routes.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/file-handling/test_file_2.txt",
+		"/home/andrew/projects/ruby/rails/rails_test_3/app/models/article.rb",
+		"/home/andrew/projects/ruby/rails/rails_test_3/app/views/welcome/index.html.erb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/z001-gems.sh",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/z_tinkering/recursive_factorial.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/013-debugging.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/strings/escape_sequences.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/metaprogramming/m001--method_missing.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/classes/ruby--class_base.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/strings/014-regular_expressions.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/logging/ruby--display-methods_minus_parents.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/z_tinkering/reverse_array_by_hand.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/arrays/004-01-comparing-arrays.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/ruby--def-1-param.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/logging/016-loops.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/logging/ruby--display-methods-one-line-at-a-time.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/strings/009-string_transformations__eg_downcase_upcase.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/classes/ruby--attr_accessor.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/classes/ruby--attr_reader.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/classes/ruby--attr_accessor_multi.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/classes/ruby--attr_writer.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/jsx-html/react--button-tag.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/014-let-file-act-as-lib-or-script.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/z_tinkering/recursive_factorial_unit_test.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c002-class_inheritance.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/scripts/ruby/lsr.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/scripts/ruby/utils/parse_cli_arguments.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/jsx-html/react--div-tags.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/jsx-html/react--tags-img.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentDidUpdate.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentWillUpdate.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentWillMount.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentDidMount.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react-component-class-export-w-constructor.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react--component--full-update-lifecycle.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react--component--complete-lifecycle.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react-component-simple-class-export.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react-component-simple-class.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/export/es6-export-def-func.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/export/es6-export-def-arrow-function.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/export/es6-export-def-class.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/export/es6-export-def-static-value.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/js/ES2015/export_fns_in_export_block.js",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/js/ES2015/import.js",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/js/ES2015/export_default_fn.js",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/redux/redux--subscribe-cb-on-state-change.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/redux/redux--dispatch-action-to-store.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/node-specific/nodejs--readFile.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/clumped/test.sublime-completions",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/node-specific/nodejs--readfile-external-catch-error-function.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_random-data/elasticsearch-query-samples-hp.js",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/methods/react--update-component-function.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react-component-class-export--all-boiler.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react-component-simple.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/AJAX/jquery--post.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/logging/log--console-file.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/logging/log--console-file-obj.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/css-cheatsheet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/definitions-general.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--method--getInitialState.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--component-mountable.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--define-child-context-on-component.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--update-component-function.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/js/ES2015/must-tries.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--comment--component-header.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--component--full-update-lifecycle.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/requires/require-lodash.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/gulp-task.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/requires/require-util-inspect.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/requires/require-path.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react-component-simple.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react-component-simple-class-export.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--PropTypes-required---rptreq.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--PropTypes.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/SublimeREPL.sublime-settings",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/commenting/comment--module-heading.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--get-default-props.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/commenting/comment--block-1line-bookend.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/es6-export-def-class.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/js/koa/003--koa--modules.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/es6-export-constant.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/es6-export-def-func.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/es6-export-func.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/scripts/setup-node/essential-modules.sh",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/express-js/express-middleware.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/tdd/tdd-it-es6.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/es6-import-standard.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/js/ES2015/export-on-fn-def.js",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/.babelrc",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/es6-import-one-item.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/es6-import-all.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/es6/es6-import-two-items.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/Immutable/immutable-list-of.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/Immutable/immutable-list.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/.gitignore",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/js/redux/001--redux-what-it-is.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/unix/bash_ampersands_double_pipes__flow_operators.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/system_scripting/b005-streaming_into_ruby_from_cli.sh",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/system_scripting/b001-filesystem_interaction.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/system_scripting/file-handling/013-copy-move-del-etc--files.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/system_scripting/file-handling/013-copying-moving-etc--files",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--component-dropdown(select-tag).sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--component-mounter--(mounts_another_component).sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/react--findDOMNode--toGetChildValue.sublime-snippet",
+		"/home/andrew/projects/isight/isight_main_v5_beta/script/case-generation-utils/create-final-form-data-objects.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/script/case-generation-utils/generate-field-definition-data.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/script/case-generation-utils/handle-users.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/script/config/populate-cases-config.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/script/case-generation-utils/progress-bar-handler.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/script/case-generation-utils/load-configs.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/script/case-generation-utils/field-extractor-utils.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/script/case-generation-utils/get-merged-user-object.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/script/populate-cases-bk.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/script/case-generation-utils/run-progress-bar.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/script/populate-triggers.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/test/api/email/test.email.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/lib/api/api-email.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/test/api/test.email-template.js",
+		"/home/andrew/projects/isight/isight_main_v5_beta/public/js/lib/elasticsearch-collection.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<project>,-node_modules/**,-.build/**,*.rb,-gulpfile.js",
+			"<project>,-node_modules/**,-.build/**,*.js,-gulpfile.js",
+			"<project>",
+			"<project>,-node_modules/**,-.build/**,*.js,-gulpfile.js",
+			"<project>,-node_modules/**,-.build/**,*.js",
+			"<project>,-node_modules/**,-.build/**",
+			"<project>,-node_modules/**",
+			"<project>",
+			"/home/andfaulkner/Projects/testbed/testbed-seneca--4/",
+			"/home/andfaulkner/Projects/testbed/express-backbone-testbed-3/node_modules/seneca",
+			"<project>",
+			"<project>, ,-node_modules",
+			"/home/andfaulkner/Projects/testbed/express-backbone-testbed-3",
+			"/home/andfaulkner/Projects/testbed/express-backbone-testbed-3/node_modules/material-ui",
+			"<project>,-node_modules/**/*.*",
+			"<project>,-node_modules**",
+			"<project>,-node_modules",
+			"<project>/app",
+			"<project>",
+			"/home/andfaulkner/Projects/testbed/express-testbed-2/app",
+			"<project>",
+			"/home/andfaulkner/Projects/testbed/express-testbed/src",
+			"<project>",
+			"/home/andfaulkner/Projects/express/express-test-3,-/home/andfaulkner/Projects/express/express-test-3",
+			"/home/andfaulkner/Projects/express/express-test-3,-/home/andfaulkner/Projects/express/express-test-3/node_modules/**",
+			"/home/andfaulkner/Projects/express/express-test-3,-/home/andfaulkner/Projects/express/express-test-3/node_modules",
+			"/home/andfaulkner/Projects/express/express-test-3",
+			"/home/andfaulkner/Projects/express/express-test-3/app.js,/home/andfaulkner/Projects/express/express-test-3/package.json,/home/andfaulkner/Projects/express/express-test-3/bin,/home/andfaulkner/Projects/express/express-test-3/public,/home/andfaulkner/Projects/express/express-test-3/routes,/home/andfaulkner/Projects/express/express-test-3/views",
+			"/home/andfaulkner/Projects/express/express-test-3/bin,/home/andfaulkner/Projects/express/express-test-3/public,/home/andfaulkner/Projects/express/express-test-3/routes,/home/andfaulkner/Projects/express/express-test-3/views",
+			"<project>",
+			"web_modules/js/**",
+			"web_modules/**",
+			"web_modules"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"things_",
+			"Bear",
+			"root",
+			"life",
+			"varargs",
+			"num_two",
+			"num_one",
+			"yield",
+			"yeild",
+			"Dog",
+			"gem install",
+			"classes at runtime",
+			"self",
+			"CONCAT",
+			"match",
+			"scan",
+			"scan ruby",
+			"strip",
+			"chomp",
+			"select",
+			"/ball/",
+			"ball",
+			"concat",
+			"rindex",
+			"bird_types_count",
+			"AppConfiguration",
+			"Configuration",
+			"FavoriteBearAppConfiguration",
+			"'number_of_apps'",
+			"number_of_apps",
+			"FavoriteBearAppConfiguration",
+			"METHOD",
+			"CLASS METHODS",
+			"johnny_d",
+			"reopen",
+			"REOPEN",
+			"letters",
+			"downto",
+			"push",
+			"join",
+			"reverse",
+			"my_arr",
+			"item",
+			"combo",
+			"MAP",
+			"len",
+			"arg",
+			"_size",
+			"rpad_size",
+			"padding",
+			"# ",
+			"num",
+			"# ",
+			"scan",
+			"REPLACE",
+			"replace",
+			".tr",
+			"tr",
+			"scrub",
+			"sequence",
+			"iter",
+			"iterate",
+			"seq",
+			"reader",
+			"accessor",
+			"# should pass :)",
+			"mod",
+			"push",
+			"old_method_missing",
+			"super",
+			"Dog",
+			"bark_sound",
+			"import",
+			"require",
+			"utils",
+			"KEY",
+			"TableName",
+			"1",
+			"Update",
+			"componentDidMount",
+			"componentWillUpdate",
+			"componentWillReceiveProps",
+			"1",
+			"li",
+			"ul",
+			"div",
+			"h1",
+			"nameOfFnAndComment",
+			"PRE",
+			"path",
+			"NOT_SELECTED",
+			"    ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"		",
+			"  ",
+			"   ",
+			"  ",
+			"\"",
+			"  ",
+			"..",
+			"      ",
+			"     ",
+			"    ",
+			"   ",
+			"  ",
+			"; ",
+			"sort",
+			"copy",
+			"max-len",
+			"true",
+			"		",
+			"  ",
+			".js",
+			"my-module",
+			"#!/",
+			"mocha",
+			"babel",
+			"SETUP",
+			"		",
+			"  ",
+			"HEAD",
+			">>",
+			"user",
+			"getUserFromApi"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"	",
+			"return ",
+			"",
+			",\\n            at ",
+			",\\n            ",
+			",\\n",
+			"\\nat",
+			"-",
+			"/",
+			"=",
+			"=    ",
+			"    ",
+			"Content1",
+			"ContentExample1",
+			"'",
+			"client",
+			"/ul",
+			"<ul>",
+			"TodoView",
+			"appView",
+			"todoView",
+			"todoListColl",
+			"todoModel",
+			"",
+			"app.coll.todoList",
+			"app.model.todo",
+			"app.",
+			"AppClass",
+			"appClass.",
+			"console.log",
+			"'",
+			"log.info",
+			"console.log",
+			"'",
+			"base_name",
+			"proto-route",
+			"fPath",
+			"DEST",
+			"SRC",
+			"rObj",
+			"\"",
+			"\"imgURL\"",
+			"\"imgURLs\"",
+			"defPluginRegisterCb",
+			"handleRegisterError",
+			"testArr",
+			"",
+			"\\t\\/\\*DEBUG\\}\\}>\\*\\/",
+			"\\t/*<{{DEBUG*/",
+			"",
+			"function navdrawer_",
+			"p.size ))",
+			"args.casper",
+			"args.runOnce",
+			"args.stats",
+			"args.production",
+			"_copy-static",
+			"__compiler",
+			"compiler"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 68.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 23.0
+	},
+	"output.nodejs":
+	{
+		"height": 88.0
+	},
+	"pinned_build_system": "Packages/User/Scheme.sublime-build",
+	"project": "sample_rails_app.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"rubygem",
+				"snippets/_docs_guides/ruby/rails/z001-gems.sh"
+			],
+			[
+				"populate-triggers",
+				"script/populate-triggers.js"
+			],
+			[
+				"eshel",
+				"public/js/lib/es-helpers.js"
+			],
+			[
+				"gridfilterstmpl",
+				"public/templates/common/grid-filters-tmpl.dust"
+			],
+			[
+				"gridfiltersview",
+				"public/js/views/common/grid-filters-view.js"
+			],
+			[
+				"elasticsearchcoll",
+				"public/js/lib/elasticsearch-collection.js"
+			],
+			[
+				"backbonegrid",
+				"public/js/lib/backbone-grid.js"
+			],
+			[
+				"settingsview",
+				"public/js/views/settings/picklist-settings-view.js"
+			],
+			[
+				"casemodel",
+				"public/js/models/case-model.js"
+			],
+			[
+				"case-model",
+				"public/js/models/case-model.js"
+			],
+			[
+				"advancedsearch",
+				"public/js/views/search/advanced-search-view.js"
+			],
+			[
+				"backbonemodel",
+				"public/js/lib/backbone-model.js"
+			],
+			[
+				"filemodel",
+				"public/js/models/file-model.js"
+			],
+			[
+				"filedetails",
+				"public/js/views/file/file-details-view.js"
+			],
+			[
+				"web.js",
+				"lib/api/web.js"
+			],
+			[
+				"generica",
+				"lib/api/GenericApi.js"
+			],
+			[
+				"apicase",
+				"lib/api/api-case.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 570.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 252.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}
