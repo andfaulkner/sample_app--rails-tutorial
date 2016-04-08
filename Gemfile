@@ -8,7 +8,7 @@ gem 'rails', '3.2.12'
 gem 'oauth2'
 gem 'rabl'
 gem 'cancan'
-gem 'doorkeeper'
+# gem 'doorkeeper'  # <<< seems to require higher ruby version
 gem 'devise'
 gem 'delayed_job'
 gem 'squeel'
@@ -17,7 +17,7 @@ gem 'grape'
 gem 'roo'
 gem 'draper'
 gem 'ice_cube'
-gem 'unirest'
+# gem 'unirest'
 
 
 # Gems used only for assets and not required
