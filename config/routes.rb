@@ -1,9 +1,16 @@
 SampleApp::Application.routes.draw do
-  get "static_page/home"
 
-  get "static_page/help"
+  root 'static_pages#home'
 
-  # The priority is based upon order of creation:
+  # maps requests for url /static_pages/home to the home action in the Static Pages controller
+  #     thus, when we generate a home action inside the Static Pages controller, we
+  #     automatically get a page at the address /static_pages/home  # The priority is based upon order of creation:
+  get "static_pages/home"
+
+  get "static_pages/help"
+
+  get "static_pages/about"
+
   # first created -> highest priority.
 
   # Sample of regular route:

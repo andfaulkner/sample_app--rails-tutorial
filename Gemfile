@@ -41,9 +41,11 @@ group :development, :test do
   # gem 'byebug', '~> 2.7.0'
   # gem 'web-console'
   gem 'spring'
+  gem 'guard'
 end
 
 group :test do
+  gem "minitest", "~> 4.0"
   gem 'minitest-reporters'
   gem 'mini_backtrace'
   gem 'guard-minitest'

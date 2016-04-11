@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>SampleApp</title>
+  <title><%= yield(:title) %></title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
+  <!-- prevents cross-site request forgery -->
   <%= csrf_meta_tags %>
 </head>
 <body>
