@@ -1,6 +1,6 @@
 SampleApp::Application.routes.draw do
 
-  root 'static_pages#home'
+  root :to => 'static_pages#home'
 
   # maps requests for url /static_pages/home to the home action in the Static Pages controller
   #     thus, when we generate a home action inside the Static Pages controller, we
@@ -10,6 +10,8 @@ SampleApp::Application.routes.draw do
   get "static_pages/help"
 
   get "static_pages/about"
+
+  get "static_pages/contact"
 
   # first created -> highest priority.
 
