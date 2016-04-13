@@ -17,26 +17,30 @@
 
 guard :minitest do
   # with Minitest::Unit
-  watch(%r{^test/(.*)\/?test_(.*)\.rb$})
-  watch(%r{^lib/(.*/)?([^/]+)\.rb$})     { |m| "test/#{m[1]}test_#{m[2]}.rb" }
-  watch(%r{^test/test_helper\.rb$})      { 'test' }
+  watch(%r{^test\/.*\/?test_.*\.rb$})                          { 'test' }
+  watch(%r{^test\/.*_test\.rb$})                               { 'test' }
+  watch(%r{^app\/(controllers|helpers|models|views)\/.*\.e?rb$})                               { 'test' }
+  watch(%r{^config\/.*\.rb$})                               { 'test' }
+      # watch(%r{^lib\/(.*\/)?([^\/]+)\.rb$})                        { |m| "test\/#{m[1]}test_#{m[2]}.rb" }
+      # watch(%r{^test\/test_helper\.rb$})                           { 'test' }
 
-  # with Minitest::Spec
-  # watch(%r{^spec/(.*)_spec\.rb$})
-  # watch(%r{^lib/(.+)\.rb$})         { |m| "spec/#{m[1]}_spec.rb" }
-  # watch(%r{^spec/spec_helper\.rb$}) { 'spec' }
+      # # with Minitest::Spec
+      # # watch(%r{^spec/(.*)_spec\.rb$})
+      # # watch(%r{^lib/(.+)\.rb$})         { |m| "spec/#{m[1]}_spec.rb" }
+      # # watch(%r{^spec/spec_helper\.rb$}) { 'spec' }
 
-  # Rails 4
-  watch(%r{^app/(.+)\.(rb|erb)$})                               { |m| "test/#{m[1]}_test.rb" }
-  watch(%r{^app/controllers/application_controller\.(erb|rb)$}) { 'test/controllers' }
-  watch(%r{^app/controllers/(.+)_controller\.(erb|rb)$})        { |m| "test/integration/#{m[1]}_test.rb" }
-  watch(%r{^app/views/(.+)_mailer/.+})                          { |m| "test/mailers/#{m[1]}_mailer_test.rb" }
-  watch(%r{^lib/(.+)\.(erb|rb)$})                               { |m| "test/lib/#{m[1]}_test.rb" }
-  watch(%r{^test/.+_test\.(erb|rb)$})
-  watch(%r{^test/.+_test\.(erb|rb)$})
-  watch(%r{^test/test_helper\.(erb|rb)$}) { 'test' }
-  # run all tests again if views change
-  watch(%r{^app/views/.*\.(erb|rb)$}) { 'test' }  
+      # # Rails 4
+      # watch(%r{^config\/(.+)\.(rb|erb)$})                            {'test'}
+      # watch(%r{^app\/models\/(.+)\.(rb|erb)$})                        {'test'}
+      # watch(%r{^app\/(.+)\.(rb|erb)$})                               { |m| "test\/#{m[1]}_test.rb" }
+      # watch(%r{^app\/controllers\/application_controller\.(erb|rb)$}) { 'test\/controllers' }
+      # watch(%r{^app\/controllers\/(.+)_controller\.(erb|rb)$})        { |m| "test\/integration\/#{m[1]}_test.rb" }
+      # watch(%r{^app\/views\/(.+)_mailer\/.+})                          { |m| "test\/mailers\/#{m[1]}_mailer_test.rb" }
+      # watch(%r{^lib\/(.+)\.(erb|rb)$})                               { |m| "test\/lib\/#{m[1]}_test.rb" }
+      # watch(%r{^test\/.+_test\.(erb|rb)$})                           {'test'}
+      # watch(%r{^test\/test_helper\.(erb|rb)$})                       {'test'}
+      # # run all tests again if views change
+      # watch(%r{^app\/views/.*\.(erb|rb)$})                           {'test'}
 
   # Rails < 4
   # watch(%r{^app/controllers/(.*)\.rb$}) { |m| "test/functional/#{m[1]}_test.rb" }

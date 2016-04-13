@@ -1,6 +1,10 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.12'
+gem 'rails',  '3.2.12'
+gem 'bcrypt', '3.1.7'
+
+# To use ActiveModel has_secure_password
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -9,7 +13,7 @@ gem 'oauth2'
 gem 'rabl'
 gem 'cancan'
 # gem 'doorkeeper'  # <<< seems to require higher ruby version
-gem 'devise'
+# gem 'devise'
 gem 'delayed_job'
 gem 'squeel'
 gem 'skylight'
@@ -46,6 +50,7 @@ end
 
 group :test do
   gem "minitest", "~> 4.0"
+  # gem 'minitest-rails'
   gem 'minitest-reporters'
   gem 'mini_backtrace'
   gem 'guard-minitest'
@@ -57,9 +62,6 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
