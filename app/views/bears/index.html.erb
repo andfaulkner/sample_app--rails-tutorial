@@ -1,0 +1,31 @@
+<h1>Listing bears</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Home</th>
+    <th>Age</th>
+    <th>Password digest</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @bears.each do |bear| %>
+  <tr>
+    <td><%= bear.name %></td>
+    <td><%= bear.type %></td>
+    <td><%= bear.home %></td>
+    <td><%= bear.age %></td>
+    <td><%= bear.password_digest %></td>
+    <td><%= link_to 'Show', bear %></td>
+    <td><%= link_to 'Edit', edit_bear_path(bear) %></td>
+    <td><%= link_to 'Destroy', bear, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Bear', new_bear_path %>

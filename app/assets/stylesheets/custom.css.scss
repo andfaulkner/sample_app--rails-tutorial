@@ -1,8 +1,9 @@
-@import "components/mixins-variables";
 
 @import "config";
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+@import "components/mixins-variables";
 
 /* header */
 @import "header";
@@ -53,4 +54,12 @@ h2 {
 p {
   font-size: 1.1em;
   line-height: 1.7em;
+}
+
+.debug_dump {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 45px;
+  @include box_sizing;
 }

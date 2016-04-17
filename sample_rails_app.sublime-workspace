@@ -644,21 +644,27 @@
 	},
 	"file_history":
 	[
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c006-self.rb",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c001-classes_intro.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/models/database_seeding.md",
+		"/home/andrew/projects/ruby/rails/sample_app/app/models/user.rb",
+		"/home/andrew/projects/ruby/rails/sample_app/db/migrate/20160413073150_add_password_digest_to_users.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rspec/r00_rpsec_setup.md",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c004-modules.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/metaprogramming/rspec_basics.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c001-classes_intro.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/collections/e003-searching_hashes.rb",
+		"/home/andrew/projects/ruby/rails/sample_app/app/models/.gitkeep",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/setup.sh",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c006-self.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/Guardfile",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/ruby--email-regex.sublime-snippet",
 		"/home/andrew/projects/ruby/rails/sample_app/config/boot.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/app/helpers/application_helper.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/test/unit/user_test.rb",
-		"/home/andrew/projects/ruby/rails/sample_app/app/models/.gitkeep",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/metaprogramming/a004-reflection.rb",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/TODO.md",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/metaprogramming/TODO.md",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/metaprogramming/Kernel_module.rb",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/z001-gems.sh",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/setup.sh",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/setup/000-setup.sh",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/001-CLI.sh",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/___MOVE--misc_info/to-learn-for-ackroo.md",
@@ -672,7 +678,6 @@
 		"/home/andrew/projects/ruby/rails/sample_app/db/migrate/20160412064222_create_users.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/db/migrate/20160412020251_create_users.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/db/migrate/20160411191224_create_users.rb",
-		"/home/andrew/projects/ruby/rails/sample_app/app/models/user.rb",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/002-project-structure.md",
 		"/home/andrew/projects/ruby/rails/sample_app/app/views/static_pages/about.html.erb",
 		"/home/andrew/projects/ruby/rails/sample_app/app/views/layouts/_header.html.erb",
@@ -766,12 +771,7 @@
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentDidUpdate.sublime-snippet",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentWillUpdate.sublime-snippet",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentWillMount.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentDidMount.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react-component-class-export-w-constructor.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react--component--full-update-lifecycle.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react--component--complete-lifecycle.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react-component-simple-class-export.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/new-cmps/react-component-simple-class.sublime-snippet"
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentDidMount.sublime-snippet"
 	],
 	"find":
 	{
@@ -822,6 +822,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"confirm",
+			"_password",
+			"\\.authenticate",
+			"  ",
+			"#",
+			"#  ",
+			"method",
+			"user",
+			"key\\?",
+			"password",
+			"grape",
+			"rails",
 			"email_invalid",
 			"em_invalid",
 			"email_msg",
@@ -937,19 +949,7 @@
 			"Configuration",
 			"FavoriteBearAppConfiguration",
 			"'number_of_apps'",
-			"number_of_apps",
-			"FavoriteBearAppConfiguration",
-			"METHOD",
-			"CLASS METHODS",
-			"johnny_d",
-			"reopen",
-			"REOPEN",
-			"letters",
-			"downto",
-			"push",
-			"join",
-			"reverse",
-			"my_arr"
+			"number_of_apps"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1056,7 +1056,7 @@
 		"rows":
 		[
 			0.0,
-			0.547276464543,
+			0.55138746146,
 			1.0
 		]
 	},
@@ -1090,8 +1090,44 @@
 		"selected_items":
 		[
 			[
+				"models.",
+				"ruby/rails/models_activerecord.md"
+			],
+			[
+				"rails",
+				"ruby/rails/001-CLI.sh"
+			],
+			[
+				"migrat",
+				"sample_app/db/migrate/20160413073150_add_password_digest_to_users.rb"
+			],
+			[
 				"c0",
 				"ruby/oop/c004-modules.rb"
+			],
+			[
+				"reflect",
+				"ruby/metaprogramming/a004-reflection.rb"
+			],
+			[
+				"class",
+				"ruby/oop/c001-classes_intro.rb"
+			],
+			[
+				"passworddigest",
+				"sample_app/db/migrate/20160413073150_add_password_digest_to_users.rb"
+			],
+			[
+				"gemfile",
+				"sample_app/Gemfile"
+			],
+			[
+				"model",
+				"ruby/rails/models_activerecord.md"
+			],
+			[
+				"testuser",
+				"sample_app/test/models/user_test.rb"
 			],
 			[
 				"ackroo",
@@ -1144,10 +1180,6 @@
 			[
 				"gem",
 				"ruby/rails/z001-gems.sh"
-			],
-			[
-				"gemfile",
-				"sample_app/Gemfile"
 			],
 			[
 				"applicationhtml",

@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Name:</b>
+  <%= @bear.name %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%= @bear.type %>
+</p>
+
+<p>
+  <b>Home:</b>
+  <%= @bear.home %>
+</p>
+
+<p>
+  <b>Age:</b>
+  <%= @bear.age %>
+</p>
+
+<p>
+  <b>Password digest:</b>
+  <%= @bear.password_digest %>
+</p>
+
+
+<%= link_to 'Edit', edit_bear_path(@bear) %> |
+<%= link_to 'Back', bears_path %>

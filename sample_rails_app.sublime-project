@@ -9,6 +9,9 @@
 		},
 		{
 			"path": "/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby"
+		},
+		{
+			"path": "/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/sh"
 		}
 	]
 }

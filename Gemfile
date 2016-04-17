@@ -41,11 +41,15 @@ group :assets do
 end
 
 group :development, :test do
+  gem 'rspec'
+  gem 'rspec-rails', '~> 3.0'
   gem 'sqlite3'
   # gem 'byebug', '~> 2.7.0'
   # gem 'web-console'
   gem 'spring'
   gem 'guard'
+  gem 'meta_request'
+  gem 'debugger'
 end
 
 group :test do
@@ -54,7 +58,6 @@ group :test do
   gem 'minitest-reporters'
   gem 'mini_backtrace'
   gem 'guard-minitest'
-  gem 'rspec'
   gem 'factory_girl'
 end
 
