@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"gravatar",
+				"gravatar_id"
+			],
+			[
 				"instance_varia",
 				"instance_variables	func"
 			],
@@ -420,10 +424,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 306.0,
-		"last_filter": "install",
+		"height": 392.0,
+		"last_filter": "instal",
 		"selected_items":
 		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -447,10 +459,6 @@
 			[
 				"package",
 				"Package Control: Remove Package"
-			],
-			[
-				"instal",
-				"Package Control: Install Package"
 			],
 			[
 				"JSON",
@@ -621,7 +629,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 531.0
+		"width": 670.0
 	},
 	"console":
 	{
@@ -644,8 +652,37 @@
 	},
 	"file_history":
 	[
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/models/database_seeding.md",
+		"/home/andrew/projects/ruby/rails/sample_app/app/controllers/users_controller.rb",
+		"/home/andrew/projects/ruby/rails/sample_app/app/helpers/users_helper.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/environments.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/debugging/view-debugging.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/debugging/console-debugging.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/architecture/REST-principles.md",
+		"/home/andrew/projects/ruby/rails/sample_app/config/routes.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/setup.sh",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/setup/003-installing-gems.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/setup/server-setup.rb",
+		"/home/andrew/projects/ruby/rails/sample_app/app/assets/stylesheets/users.css.scss",
+		"/home/andrew/projects/ruby/rails/sample_app/config/environments/development.rb",
+		"/home/andrew/projects/ruby/rails/sample_app/config/application.rb",
+		"/home/andrew/projects/ruby/rails/sample_app/Gemfile",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/models/models_activerecord.md",
+		"/home/andrew/projects/ruby/rails/sample_app/app/views/layouts/application.html.erb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/001-CLI.sh",
 		"/home/andrew/projects/ruby/rails/sample_app/app/models/user.rb",
+		"/home/andrew/projects/ruby/rails/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/zzIdeas.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/Markdown (Standard).sublime-settings",
+		"/home/andrew/.config/sublime-text-3/Installed Packages/MarkdownEditing.sublime-package",
+		"/home/andrew/.config/sublime-text-3/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/home/andrew/projects/ruby/rails/sample_app/app/assets/stylesheets/components/mixins-variables.css.scss",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/debugging/in-page-debug-info.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/debugging/in-page-debug-info.rb",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/architecture/002-project-structure.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/architecture/000-components-of-rails.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/sh/sh--comment-heading.sublime-snippet",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/000-components-of-rails.md",
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/models/database_seeding.md",
 		"/home/andrew/projects/ruby/rails/sample_app/db/migrate/20160413073150_add_password_digest_to_users.rb",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rspec/r00_rpsec_setup.md",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c004-modules.rb",
@@ -653,7 +690,6 @@
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c001-classes_intro.rb",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/collections/e003-searching_hashes.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/app/models/.gitkeep",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/setup.sh",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c006-self.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/Guardfile",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/ruby--email-regex.sublime-snippet",
@@ -666,11 +702,8 @@
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/metaprogramming/Kernel_module.rb",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/z001-gems.sh",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/setup/000-setup.sh",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/001-CLI.sh",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/___MOVE--misc_info/to-learn-for-ackroo.md",
 		"/home/andrew/projects/ruby/rails/sample_app/config/initializers/backtrace_silencers.rb",
-		"/home/andrew/projects/ruby/rails/sample_app/Gemfile",
-		"/home/andrew/projects/ruby/rails/sample_app/config/application.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/test/unit/helpers/users_helper_test.rb",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/012-methods.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/db/migrate/20160412070530_create_users.rb",
@@ -681,7 +714,6 @@
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/rails/002-project-structure.md",
 		"/home/andrew/projects/ruby/rails/sample_app/app/views/static_pages/about.html.erb",
 		"/home/andrew/projects/ruby/rails/sample_app/app/views/layouts/_header.html.erb",
-		"/home/andrew/projects/ruby/rails/sample_app/config/routes.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/app/views/static_pages/contact.html.erb",
 		"/home/andrew/projects/ruby/rails/sample_app/sample_rails_app.sublime-project",
 		"/home/andrew/projects/ruby/rails/sample_app/app/assets/stylesheets/footer.css.scss",
@@ -699,12 +731,9 @@
 		"/home/andrew/projects/ruby/rails/sample_app/test/functional/static_pages_controller_test.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/test/functional/users_controller_test.rb",
 		"/home/andrew/projects/ruby/rails/sample_app/app/views/layouts/_footer.html.erb",
-		"/home/andrew/projects/ruby/rails/sample_app/app/assets/stylesheets/custom.css.scss",
-		"/home/andrew/projects/ruby/rails/sample_app/app/assets/stylesheets/components/mixins-variables.css.scss",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/rails/ruby-rails-erb--image_tag.sublime-snippet",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/rails/ruby-rails-erb--link_to.sublime-snippet",
 		"/home/andrew/projects/ruby/rails/sample_app/app/views/static_pages/help.html.erb",
-		"/home/andrew/projects/ruby/rails/sample_app/app/views/layouts/application.html.erb",
 		"/home/andrew/projects/ruby/rails/sample_app/app/assets/stylesheets/components/mixins_variables.css.scss",
 		"/home/andrew/projects/ruby/rails/sample_app/app/assets/stylesheets/config.css.scss",
 		"/home/andrew/projects/ruby/rails/sample_app/app/assets/stylesheets/components/fonts.css.scss",
@@ -750,28 +779,7 @@
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/metaprogramming/m001--method_missing.rb",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/classes/ruby--class_base.sublime-snippet",
 		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/strings/014-regular_expressions.rb",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/logging/ruby--display-methods_minus_parents.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/z_tinkering/reverse_array_by_hand.rb",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/arrays/004-01-comparing-arrays.rb",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/logging/016-loops.rb",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/logging/ruby--display-methods-one-line-at-a-time.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/strings/009-string_transformations__eg_downcase_upcase.rb",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/classes/ruby--attr_accessor.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/classes/ruby--attr_reader.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/classes/ruby--attr_accessor_multi.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/classes/ruby--attr_writer.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/jsx-html/react--button-tag.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/014-let-file-act-as-lib-or-script.rb",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/z_tinkering/recursive_factorial_unit_test.rb",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/_docs_guides/ruby/oop/c002-class_inheritance.rb",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/scripts/ruby/lsr.rb",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/scripts/ruby/utils/parse_cli_arguments.rb",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/jsx-html/react--div-tags.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/jsx-html/react--tags-img.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentDidUpdate.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentWillUpdate.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentWillMount.sublime-snippet",
-		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/js/react/lifecycle/react--componentDidMount.sublime-snippet"
+		"/home/andrew/.config/sublime-text-3/Packages/User/snippets/snippets/ruby/logging/ruby--display-methods_minus_parents.sublime-snippet"
 	],
 	"find":
 	{
@@ -822,6 +830,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Webrick",
+			"  ",
+			"19",
+			"user",
+			"meta_requ",
+			"highlight",
+			"rule",
+			"ruler",
+			"centered",
+			"it",
+			"SERVER",
 			"confirm",
 			"_password",
 			"\\.authenticate",
@@ -938,18 +957,7 @@
 			"scan",
 			"scan ruby",
 			"strip",
-			"chomp",
-			"select",
-			"/ball/",
-			"ball",
-			"concat",
-			"rindex",
-			"bird_types_count",
-			"AppConfiguration",
-			"Configuration",
-			"FavoriteBearAppConfiguration",
-			"'number_of_apps'",
-			"number_of_apps"
+			"chomp"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1056,7 +1064,7 @@
 		"rows":
 		[
 			0.0,
-			0.55138746146,
+			0.48980679286,
 			1.0
 		]
 	},
@@ -1080,7 +1088,7 @@
 	"pinned_build_system": "Packages/User/Scheme.sublime-build",
 	"replace":
 	{
-		"height": 40.0
+		"height": 64.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -1089,6 +1097,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"gemfil",
+				"sample_app/Gemfile"
+			],
+			[
+				"customcss",
+				"sample_app/app/assets/stylesheets/custom.css.scss"
+			],
+			[
+				"showhtml",
+				"sample_app/app/views/users/show.html.erb"
+			],
+			[
+				"configroutes",
+				"sample_app/config/routes.rb"
+			],
+			[
+				"",
+				"ruby/rails/001-CLI.sh"
+			],
+			[
+				"user",
+				"sample_app/app/models/user.rb"
+			],
 			[
 				"models.",
 				"ruby/rails/models_activerecord.md"
@@ -1267,12 +1299,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 366.0,
+		"height": 391.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 392.0
+		"width": 755.0
 	},
 	"settings":
 	{
@@ -1281,7 +1313,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 277.0,
+	"side_bar_width": 266.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
