@@ -32,7 +32,6 @@ gem 'bootstrap-sass', '3.2.0.0'
 # in production environments by default.
 group :assets do
   gem 'sass-rails'
-  gem 'coffee-rails'
 	gem 'jquery-rails'
 	gem 'turbolinks'
 	gem 'jbuilder'
@@ -48,8 +47,6 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails', '~> 3.0'
   gem 'sqlite3'
-  # gem 'byebug', '~> 2.7.0'
-  # gem 'web-console'
   gem 'spring'
   gem 'meta_request'
   gem 'debugger'
@@ -80,6 +77,3 @@ end
 
 # Deploy with Capistrano
 # gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'

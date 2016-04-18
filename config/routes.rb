@@ -1,19 +1,22 @@
 SampleApp::Application.routes.draw do
 
-  root :to => 'static_pages#home'
+  root :to =>             "static_pages#home"
 
   # maps requests for url /static_pages/home to the home action in the Static Pages controller
   #     thus, when we generate a home action inside the Static Pages controller, we
   #     automatically get a page at the address /static_pages/home  # The priority is based upon order of creation:
-  get 'home' => "static_pages#home"
+  get 'home' =>           "static_pages#home"
 
-  # routes
-  get 'help' => "static_pages#help"
-  get 'about' => "static_pages#about"
-  get 'contact' => "static_pages#contact"
+  # basic routes - pages
+  get 'help' =>           "static_pages#help"
+  get 'about' =>          "static_pages#about"
+  get 'contact' =>        "static_pages#contact"
+  get "signup" =>         "users#new"
 
-  get "static_pages/contact"
-  get "signup" => 'users#new'
+  # sessions
+  get "login" =>          "sessions#new"              # name: login_path      action: new
+  post "login" =>         "sessions#create"           # name: login_path      action: create
+  delete "logout" =>      "sessions#destroy"          # name: logout_path     action: destroy
 
   # resources
   resources :users
