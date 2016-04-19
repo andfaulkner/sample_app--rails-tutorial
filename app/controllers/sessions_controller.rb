@@ -3,12 +3,11 @@ class SessionsController < ApplicationController
   def new
   end
 
-  # 
-  # Create a session - aka log a user in
+  #
+  # Log user in & create a session
   # 
   def create
-  	authenticate error: 	method(:show_login_fail_msg),
-  							 success: method(:log_in)
+  	attempt_login
   end
 
   def destroy

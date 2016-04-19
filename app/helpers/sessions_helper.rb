@@ -1,39 +1,39 @@
 module SessionsHelper
 
-	def authenticate (opts)
-  	user = User.where(email: params[:session][:email].downcase)
-  	if user && user[0] && user[0].authenticate(params[:session][:password])
-			log_in user, redirect: true
+	def attempt_login
+  	get_login_attempt_content
+  	if authentication_attempt == 'success'
+			log_in
   	else
-  		opts.fetch(:error).call
+  		show_login_fail_msg
   	end
-	end
-
-	def show_login_fail_msg
-  	flash.now[:danger] = 'Invalid email/password combo'
-  	render 'new'
-	end
-	
-	#
-	# create a user session if authentication succeeds
-	#
-	def log_in user, opts = {redirect: false}
-		@user = (defined? user.size) ? user[0] : user
-		session[:user_id] = @user.id   # this creates temporary cookies, which are encrypted
-		redirect_post_login opts
 	end
 
 	def current_user
 	  User.find_by(id: session[:user_id])
 	end
 
-	def redirect_post_login opts = {redirect: false}
-		redirect = opts.fetch(:redirect)
-		if redirect == true
-			redirect_to @user
-		elsif redirect
-			redirect_to redirect
+	private
+
+		def get_login_attempt_content
+			@password, @email = 	params[:session][:password],
+														params[:session][:email]
+			@user_page = @user = 	(User.where email: @email)[0]
 		end
-	end
+
+		def authentication_attempt
+			(@user && (@user.authenticate @password)) ? 'success' : 'fail'
+		end
+
+		def show_login_fail_msg
+	  	flash.now[:danger] = 'Invalid email/password combo'
+	  	render 'new'
+		end
+		
+		# create a user session if authentication succeeds, redirect to user page
+		def log_in
+			session[:user_id] = @user.id   # this creates temporary cookies, which are encrypted
+			redirect_to @user_page
+		end
 
 end
