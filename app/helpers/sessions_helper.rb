@@ -1,5 +1,6 @@
 module SessionsHelper
 
+  # Try to log in. User must have provided a password & email for this to work
 	def attempt_login
   	get_login_attempt_content
   	if authentication_attempt == 'success'
@@ -9,16 +10,28 @@ module SessionsHelper
   	end
 	end
 
+	# get current user. Ensure db only gets hit 1X if current_user called more than 1X on a page
 	def current_user
-	  User.find_by(id: session[:user_id])
+	  @current_user ||= User.where(id: session[:user_id]).first
 	end
+
+  # Returns true if the user is logged in, false otherwise.
+  def logged_in?
+    !current_user.nil?
+  end
+
+  # Logs out the current user.
+  def log_out
+    session.delete(:user_id)
+    @current_user = nil
+  end
 
 	private
 
 		def get_login_attempt_content
 			@password, @email = 	params[:session][:password],
 														params[:session][:email]
-			@user_page = @user = 	(User.where email: @email)[0]
+			@user_page = @user = 	(User.where email: @email).first
 		end
 
 		def authentication_attempt
@@ -30,7 +43,9 @@ module SessionsHelper
 	  	render 'new'
 		end
 		
-		# create a user session if authentication succeeds, redirect to user page
+		# 
+		# if authentication succeeds create a user session & redirect user to their profile (user) page
+		# 
 		def log_in
 			session[:user_id] = @user.id   # this creates temporary cookies, which are encrypted
 			redirect_to @user_page

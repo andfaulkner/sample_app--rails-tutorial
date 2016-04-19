@@ -3,9 +3,19 @@
     <%= link_to "sample app", '#', id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
+
         <li class="navbar-top"><%= link_to "Home",   root_path, class: 'nav-link' %></li>
         <li class="navbar-top"><%= link_to "Help",   help_path, class: 'nav-link' %></li>
-        <li class="navbar-top"><%= link_to "Log in", login_path, class: 'nav-link' %></li>
+        <% if logged_in? %>
+          <li class="navbar-top"><%= link_to "Users",    '#', class: 'nav-link' %></li>
+          <li class="navbar-top"><%= link_to "Settings",    '#', class: 'nav-link'  %></li>
+          <li class="navbar-top"><%= link_to "Profile", current_user, class: 'nav-link'  %></li>
+          <li class="navbar-top"><%= link_to "Log out", logout_path, method: :delete, class: 'nav-link' %></li>
+            <!-- This does the same thing as the link_to "Profile": -->
+            <!-- <%= link_to "Profile", user_path(current_user) %> -->
+        <% else %>
+          <li class="navbar-top"><%= link_to "Log in", login_path, class: 'nav-link' %></li>
+        <% end %>
       </ul>
     </nav>
   </div>
