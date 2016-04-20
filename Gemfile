@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rails',  '3.2.12'
+# gem "puma", ">= 3.4.0"
+gem 'thin'
 gem "passenger", ">= 5.0.27", require: "phusion_passenger/rack_handler"
-gem "puma", ">= 3.4.0"
 
 gem 'bcrypt', '3.1.7'
 
