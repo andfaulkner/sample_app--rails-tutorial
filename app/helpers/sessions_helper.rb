@@ -1,5 +1,11 @@
 module SessionsHelper
 
+	# logs out the current user
+	def logout
+		session.delete(:user_id)
+		@current_user = nil
+	end
+
   # Try to log in. User must have provided a password & email for this to work
 	def attempt_login
   	get_login_attempt_content
@@ -47,6 +53,7 @@ module SessionsHelper
 		# if authentication succeeds create a user session & redirect user to their profile (user) page
 		# 
 		def log_in
+			# binding.pry
 			session[:user_id] = @user.id   # this creates temporary cookies, which are encrypted
 			redirect_to @user_page
 		end

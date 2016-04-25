@@ -4,9 +4,13 @@
     <nav>
       <ul class="nav navbar-nav navbar-right">
 
-        <li class="navbar-top"><%= link_to "Home",   root_path, class: 'nav-link' %></li>
+        <% if logged_in? %>
+          <li class="navbar-top"><div class="nav-link"><%= session ? User.where(session[:current_user_id])[0].name.capitalize : '' %></div></li>
+        <% end %>
+
         <li class="navbar-top"><%= link_to "Help",   help_path, class: 'nav-link' %></li>
         <% if logged_in? %>
+
           <li class="navbar-top"><%= link_to "Users",    '#', class: 'nav-link' %></li>
           <li class="navbar-top"><%= link_to "Settings",    '#', class: 'nav-link'  %></li>
           <li class="navbar-top"><%= link_to "Profile", current_user, class: 'nav-link'  %></li>

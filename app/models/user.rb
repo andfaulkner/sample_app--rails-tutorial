@@ -1,3 +1,5 @@
+require 'bcrypt'
+
 class User < ActiveRecord::Base
   attr_accessible 	:email, :name, :password, :password_confirmation, :poo
 
@@ -21,4 +23,15 @@ class User < ActiveRecord::Base
   																	format: { with: /\A[^ ]*\z/i }
 
   has_secure_password
+
+  # 
+  # @param string {String} to be hashed
+  # 
+  def User.digest string
+
+    cost = 20
+    # ActiveModel::SecurePassword.min cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
+    BCrypt::Password.create string, cost: cost
+  end
+
 end

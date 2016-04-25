@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 gem 'rails',  '3.2.12'
-gem "passenger", ">= 5.0.27", require: "phusion_passenger/rack_handler"
-gem "puma", ">= 3.4.0"
-
-gem 'bcrypt', '3.1.7'
+gem "thin"
+# gem "passenger", ">= 5.0.27", require: "phusion_passenger/rack_handler"
+# gem "puma", ">= 3.4.0"
 
 # To use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt', '3.1.7'
+gem 'bcrypt-ruby', '~>3.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -50,8 +50,13 @@ group :development, :test do
   gem 'spring'
   gem 'meta_request'
   gem 'debugger'
+  gem 'listen', '~> 3.0.6'
   gem 'guard'
   gem 'guard-rspec'
+  gem 'pry'
+  gem 'pry-debugger'
+  gem 'pry-rails'
+  gem 'pry-stack_explorer'
 end
 
 group :test do
@@ -60,7 +65,6 @@ group :test do
   gem 'minitest-reporters'
   gem 'mini_backtrace'
   gem 'guard-minitest'
-  gem 'guard-rspec'
   gem 'factory_girl'
 end
 
